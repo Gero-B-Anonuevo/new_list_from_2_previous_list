@@ -6,4 +6,8 @@ for number in first_list:
     if number%2 != 0:
         product_list.append(number)
 
-print(product_list)
+for number in second_list:
+    if number%2 == 0:
+        product_list.append(number)
+
+print("Resulting list: ", product_list)
